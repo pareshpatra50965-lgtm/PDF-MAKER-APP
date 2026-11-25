@@ -12,15 +12,13 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Create Debug Keystore and Build
+      - name: Build APK
         run: |
-          GRADLEW_PATH=$(find . -name "gradlew" | head -n 1)
-          PROJECT_DIR=$(dirname "$GRADLEW_PATH")
-          cd "$PROJECT_DIR"
+          BUILD_FILE=$(find . -name "settings.gradle*" | head -n 1)
+          cd "$(dirname "$BUILD_FILE")"
           mkdir -p app
           keytool -genkey -v -keystore app/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          gradle assembleDebug
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
