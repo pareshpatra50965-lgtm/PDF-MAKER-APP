@@ -1,0 +1,6 @@
+{
+  "name": "PDF Maker",
+  "description": "Modern native Android PDF Maker for converting images into PDFs, reordering pages, viewing documents, and sharing files.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
