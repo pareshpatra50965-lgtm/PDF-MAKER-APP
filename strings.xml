@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">PDF Maker</string>
+    <string name="app_tagline">Create, organize &amp; read PDFs</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tools">Tools</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="search_placeholder">Search PDFs or tools…</string>
+    <string name="clear_search">Clear search</string>
+    <string name="recent_files_title">Recent Files</string>
+    <string name="view_all">View all</string>
+    <string name="empty_recent_title">No PDFs created yet</string>
+    <string name="empty_recent_subtitle">Select photos from your gallery to create a crisp multi-page PDF in seconds.</string>
+    <string name="create_first_pdf">Image to PDF</string>
+    <string name="pdf_tools_title">PDF Tools</string>
+    <string name="available_now">Ready</string>
+    <string name="coming_soon">Next Update</string>
+    <string name="no_search_results">No matching files or tools found.</string>
+
+    <!-- Tool Names & Descriptions -->
+    <string name="tool_image_to_pdf_title">Image to PDF</string>
+    <string name="tool_image_to_pdf_subtitle">Combine &amp; reorder photos into PDF</string>
+    <string name="tool_scan_to_pdf_title">Scan to PDF</string>
+    <string name="tool_scan_to_pdf_subtitle">Camera document edge scan</string>
+    <string name="tool_merge_pdf_title">Merge PDF</string>
+    <string name="tool_merge_pdf_subtitle">Combine multiple PDFs into one</string>
+    <string name="tool_split_pdf_title">Split PDF</string>
+    <string name="tool_split_pdf_subtitle">Extract or separate PDF pages</string>
+    <string name="tool_compress_pdf_title">Compress PDF</string>
+    <string name="tool_compress_pdf_subtitle">Reduce PDF file size cleanly</string>
+    <string name="tool_pdf_reader_title">PDF Reader</string>
+    <string name="tool_pdf_reader_subtitle">View &amp; browse any PDF file</string>
+    <string name="tool_pdf_editor_title">PDF Editor</string>
+    <string name="tool_pdf_editor_subtitle">Annotate &amp; highlight pages</string>
+    <string name="tool_sign_pdf_title">Sign PDF</string>
+    <string name="tool_sign_pdf_subtitle">Add signature to documents</string>
+    <string name="tool_word_to_pdf_title">Word to PDF</string>
+    <string name="tool_word_to_pdf_subtitle">Convert DOCX documents</string>
+    <string name="tool_pdf_to_image_title">PDF to Image</string>
+    <string name="tool_pdf_to_image_subtitle">Export PDF pages as JPG/PNG</string>
+
+    <!-- Tool Categories -->
+    <string name="category_all">All</string>
+    <string name="category_create">Create</string>
+    <string name="category_organize">Organize</string>
+    <string name="category_convert">Convert</string>
+    <string name="category_read_edit">Read &amp; Edit</string>
+
+    <!-- Image to PDF Screen -->
+    <string name="select_images_title">Turn Images into PDF</string>
+    <string name="select_images_desc">Pick multiple photos from your device, reorder pages, choose paper size, and export a clean PDF.</string>
+    <string name="choose_images">Select Images</string>
+    <string name="add_more_images">Add More</string>
+    <string name="clear_all">Clear</string>
+    <string name="convert_to_pdf">Create PDF</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="generating_pdf">Generating PDF…</string>
+    <string name="pdf_file_name_label">PDF File Name</string>
+    <string name="page_size_label">Page Size</string>
+    <string name="page_orientation_label">Orientation</string>
+    <string name="page_margin_label">Page Margin</string>
+    <string name="page_order_hint">Drag the handle or long-press a card to reorder pages.</string>
+    <string name="move_up">Move page up</string>
+    <string name="move_down">Move page down</string>
+    <string name="remove_image">Remove image</string>
+    <string name="rotate_image">Rotate 90°</string>
+    <string name="crop_rotate_image">Crop &amp; Rotate</string>
+    <string name="edit_image_title">Crop &amp; Rotate</string>
+    <string name="reset_edits">Reset</string>
+    <string name="rotate_left">Rotate left 90°</string>
+    <string name="rotate_right">Rotate right 90°</string>
+    <string name="apply_edits">Apply</string>
+    <string name="pdf_created_title">PDF Created Successfully</string>
+    <string name="view_pdf">Open PDF</string>
+    <string name="preview_pdf">Preview PDF</string>
+    <string name="download_pdf">Download</string>
+    <string name="save_to_device">Save Copy</string>
+    <string name="share_pdf">Share</string>
+    <string name="create_another">New PDF</string>
+    <string name="navigate_back">Back</string>
+
+    <!-- Files & Reader -->
+    <string name="open_device_pdf">Open PDF</string>
+    <string name="sort_newest">Newest</string>
+    <string name="sort_name">Name</string>
+    <string name="sort_size">Size</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_pdf_title">Delete PDF?</string>
+    <string name="delete_pdf_message">This will permanently remove the file from PDF Maker.</string>
+    <string name="rename_pdf_title">Rename PDF</string>
+    <string name="empty_files_title">Your PDF Library is Empty</string>
+    <string name="empty_files_subtitle">Create a PDF from images or open an existing PDF file from your device.</string>
+    <string name="reader_empty_title">Open Any PDF Document</string>
+    <string name="reader_empty_subtitle">Browse a PDF stored on your device or pick one from your recent creations below.</string>
+    <string name="browse_device_pdf">Browse Device PDFs</string>
+
+    <!-- Settings -->
+    <string name="settings_defaults_header">PDF Generation Defaults</string>
+    <string name="settings_storage_header">Storage &amp; Files</string>
+    <string name="settings_about_header">About</string>
+    <string name="settings_image_quality">Image Compression</string>
+    <string name="settings_delete_all">Delete All Saved PDFs</string>
+    <string name="settings_delete_all_title">Delete All PDFs?</string>
+    <string name="settings_delete_all_message">All generated PDFs stored inside PDF Maker will be removed.</string>
+    <string name="settings_version_label">Version</string>
+
+    <!-- Tool Info Screen -->
+    <string name="stage_two_badge">Scheduled for Next Update</string>
+    <string name="stage_two_note">This tool is part of the PDF Maker suite roadmap and is not active in Stage 1. Use Image to PDF or PDF Reader right now.</string>
+    <string name="go_to_image_to_pdf">Open Image to PDF</string>
+    <string name="back_to_tools">Back to Tools</string>
+</resources>
